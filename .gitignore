@@ -6,7 +6,6 @@
 node_modules/
 platforms/
 plugins/
-www/lib/
 coverage/
 .DS_Store
 bower_components/

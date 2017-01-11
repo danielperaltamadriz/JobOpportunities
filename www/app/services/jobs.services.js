@@ -23,9 +23,9 @@
 
                 function addJobs(job){                      
                         jobLists.$add(job).then(function (resolve){
-                                 
+                                 ionicToast.show('Job Posstion Added', 'Top',false, 2000);
                         });
-                        ionicToast.show('Job Posstion Added', 'Top',false, 2000);
+                        
                 }            
 
                 function getJobs(){

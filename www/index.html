@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <!-- compiled css output -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/ionic.app.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/ionic.app.min.css">
+  <!-- endinject -->
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="lib/ionic-platform-web-client/dist/ionic.io.bundle.min.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <!-- Cordova is bootstrapped by ionic-platform-web-client, uncomment this if you remove ionic-platform-web-client... -->
+  <!-- <script src="cordova.js"></script> -->
+  <script src="lib/angular-messages/angular-messages.min.js"></script>
+  <script src="lib/firebase/firebase.js"></script>
+  <script src="lib/angularfire/dist/angularfire.min.js"></script>
+
+  <!-- inject:js -->
+  <script src="app/app.module.js"></script>
+  <script src="app/core/core.module.js"></script>
+  <script src="app/create/create.module.js"></script>
+  <script src="app/main/main.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/app.routes.js"></script>
+  <script src="app/app.run.js"></script>
+  <script src="app/create/create.controller.js"></script>
+  <script src="app/create/create.routes.js"></script>
+  <script src="app/main/main.controller.js"></script>
+  <script src="app/main/main.routes.js"></script>
+  <script src="app/services/jobs.services.js"></script>
+  <!-- endinject -->
+
+</head>
+<body ng-app="app">
+<div class="tabs tabs-stable tabs-icon-only">
+  <a class="tab-item" ui-sref="main">
+    <i class="icon ion-ionic"></i>
+  </a>
+  <a class="tab-item" ui-sref="create">
+    <i class="icon ion-star"></i>
+  </a>
+  <a class="tab-item">
+    <i class="icon ion-gear-a"></i>
+  </a>
+</div>
+<ion-nav-view>
+</ion-nav-view>
+</body>
+</html>

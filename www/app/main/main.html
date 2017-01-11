@@ -1,0 +1,26 @@
+<ion-view>
+    <ion-nav-bar class="bar bar-header bar-assertive">
+        <ion-nav-title>
+            <h1 class="title">Current Jobs</h1>
+        </ion-nav-title>
+    </ion-nav-bar>
+    <ion-content>
+        <div class="row header">
+            <div class="col" ng-repeat="header in vm.headers">
+                {{header}}
+            </div>
+        </div>
+        <div class="row" ng-repeat="job in vm.getJobs()">
+            <div class="col">{{job.companyName}}</div>
+            <div class="col">{{job.post}}</div>
+            <div class="col">{{job.baseSalary}}</div>
+            <div class="col">{{job.weeklyHours}}</div>
+            <div class="col">{{job.perks}}</div>
+            <div class="col">{{job.disadvantages}}</div>
+            <div class="col">{{job.localization}}</div>
+            <div class="col">{{job.requirements}}</div>
+            <div class="col">{{job.date}}</div>
+            <div class="col">{{job.link}}</div>
+        </div>
+    </ion-content>
+</ion-view>

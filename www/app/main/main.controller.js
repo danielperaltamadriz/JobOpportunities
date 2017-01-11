@@ -7,7 +7,7 @@
   function MainCtrl(jobService) {
     var vm = this;
     vm.headers =['Name of the Company',
-                  'Post',
+                  'Job Possition',
                   'Base salary',
                   'Weekly hours',
                   'Perks',

@@ -7,7 +7,8 @@
             'ionic',
             'ui.router',
             'ngMessages',
-            'firebase'
+            'firebase',
+            'ionic-toast'
         ]);
 
 })();

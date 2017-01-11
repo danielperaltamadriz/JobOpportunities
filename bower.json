@@ -10,6 +10,7 @@
     "angular-ui-router": "0.3.0",
     "angular-messages": "1.5.6",
     "angularfire": "^2.1.0",
-    "firebase": "^3.5.3"
+    "firebase": "^3.5.3",
+    "ionic-toast": "^0.4.1"
   }
 }
